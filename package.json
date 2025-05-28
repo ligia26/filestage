@@ -1,0 +1,29 @@
+{
+  "name": "hiring",
+  "version": "1.0.0",
+  "scripts": {
+    "archive": "git archive --format zip --output \"assignment-$(git rev-parse --short HEAD).zip\" HEAD ."
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "test"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "linkify-react": "^4.2.0",
+    "linkifyjs": "^4.2.0",
+    "react-linkify": "^1.0.0-alpha"
+  }
+}
